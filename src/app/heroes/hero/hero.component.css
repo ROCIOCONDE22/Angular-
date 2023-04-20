@@ -1,0 +1,12 @@
+h1{
+  font-size: 50px;
+}
+
+dd{
+  font-size: 2rem;
+  font-weight: bold;
+}
+button{
+  color: rgb(73, 2, 239);
+  border-color: black;
+}

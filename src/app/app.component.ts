@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'bases';
+  public title: string = 'Personajes de Marvel';
+  public counter= 10;
+
+  increaseBy(value: number):void{
+    this.counter +=1;
+  }
+
+  decreaseBy(value: number): void{
+    this.counter -=1;
+  }
+
+  resetCounter() {
+    this.counter=10;
+  }
 }
